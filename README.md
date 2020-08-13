@@ -1,7 +1,7 @@
 # Task_List
 A Simple Task List/To-Do List. 
 
-Dependacies 
+Dependencies 
  - Skeleton.css
 
 13/8/2020
