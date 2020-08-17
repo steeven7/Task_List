@@ -20,10 +20,16 @@
     <div class="eight columns">
       <form  class="task-form">
       <label for="add task">Add Task</label>
-      <input class="u-full-width" type="text" placeholder="Add Task" id="taskInput">
+      <input class="u-full-width" type="text" placeholder="Add Task" id="taskInput" maxlength = "70">
+      <label for="schedule">To Be Completed By</label>
+      <input type="date" id="schedule" name="completeBy"> 
+      <div class="row">
       <button type="submit" value="submit" id="submit">Submit</button>
 
-      <a href="#" class="button" id ="clear">Clear Tasks</a>
+        <a href="#" class="button" id ="clear">Clear Tasks</a>
+
+      </div>
+
       </form>
       <div class="row"><h5>Tasks To Be Completed</h5></div>
      <div class="row">
@@ -39,3 +45,9 @@
   </div>
   
 </div>
+
+
+  
+</body>
+<script src="app.js"></script>
+</html>
